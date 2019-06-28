@@ -1,0 +1,207 @@
+#about{
+    margin-top: 61px;
+  
+}
+.vs_text h2{ 
+    font-size: 40px;
+    font-weight: bold;
+    width: 96%;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 22px;
+    text-shadow: 0 2px 4px rgba(255, 253, 253, 0.5);
+    letter-spacing: 5px;
+    line-height: 50px;
+    position: absolute  ;
+    margin-top: -10%; 
+    color: #ffffff;
+}
+.about-image{
+    margin-left: -15px;
+    margin-right: -15px;
+    position: relative;
+}
+
+#save_up{
+    margin-top:30px;
+}
+.about_box{
+    background-color: #fff;
+    padding: 10px 0;
+    margin-top: -87px;
+    margin-bottom: 38px;
+    position: relative;
+    box-shadow: 0 3px 7px 0 rgba(0,0,0,.28);
+}
+.save_up_text h4{
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 21px;
+}
+#cashback{
+    margin-bottom: 30px;
+}
+.cashback_box{
+     box-shadow: 0 3px 7px 0 rgba(0,0,0,.28);
+     padding: 15px;
+}
+.cashback_box img{
+    padding: 10px;
+}
+.cashback_box p{
+    text-align: center;
+    margin-bottom: -3px;
+
+}
+.red{
+    background-color: #b92f2f;
+    box-shadow: 0 3px 7px 0 rgba(0,0,0,.28);    
+}
+#about_video{
+    margin-bottom: 30px;
+}
+.vedio_text h2{
+    text-align: center;
+    font-size: 31px;
+    font-weight: bold;
+    color: #ffff;
+    text-transform: uppercase;
+    line-height: 55px;
+    margin-top: 82px;
+}
+
+.time-Guarantee
+{
+
+    background-color: #fff;
+    box-shadow: 0 3px 7px 0 rgba(0,0,0,.28);
+    margin-top: 30px;
+}
+.img{
+    float: left;
+    margin: 10px;
+  width: 88px;
+    height: 88px;
+    background-size: contain;
+    display: block;
+} 
+.Title_hero {
+    
+    font-weight: bolder;
+    text-align: left;
+    color: #3e3e52;
+    font-size: 32px;
+    font-weight: 700;
+    margin-top: 27px;
+    text-align: center;
+    /* margin-right: 97px; */
+}
+.subtext_hero {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.25;
+    letter-spacing: .3px;
+    text-align: left;
+    color: #7e7e8c;
+    margin-top: 10px;
+    text-align: center;
+}
+.Herotext1 {
+    line-height: 1.71;
+    letter-spacing: .3px;
+}
+.herotext
+{
+    color: yellowgreen;
+}
+.title_hero {
+    font-size: 19px;
+    font-weight: bolder;
+    color: #1446a0;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: .3px;
+}
+.value_hero {
+    margin-top: -8px;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: .2px;
+    text-align: left;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.43;
+    color: #34495e;
+    font-weight: 700;
+    text-align: center;
+}
+.text_hero {
+    margin-top: -8px;
+    font-size: 14px;
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.43;
+    letter-spacing: .3px;
+    color: #34495e;
+}
+.lavel-margin
+{
+    margin-right: 100px;
+}
+.bus-timing
+{
+    float: left;
+    margin-top: 20px;
+    text-align: center;
+}
+.tube-light-margin
+{
+    margin-left: 263px;
+}
+
+
+
+
+@media only screen and (max-width: 600px) {
+    .vs_text h2{
+        margin-top: -33%;
+    }
+    .vedio_text h2{
+        text-align: center;
+        font-size: 27px;
+        font-weight: bold;
+        color: #ffff;
+        text-transform: uppercase;
+        line-height: 50px;
+        margin-top: 17px;
+}
+.img {
+    margin: 10px;
+    width: 88px;
+    height: 88px;
+    margin-left: 74px;
+    display: block;
+}
+
+.Title_hero {
+    font-weight: bolder;
+    color: #3e3e52;
+    font-size: 23px;
+    font-weight: 700;
+    margin-top: 27px;
+    text-align: center;
+}
+.lavel-margin {
+    margin-right: 0px;
+}
+.tube-light-margin
+{
+display: none;
+}
+  }
+  
