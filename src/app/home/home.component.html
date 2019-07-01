@@ -1,39 +1,141 @@
+<owl-carousel-o [options]="customOptions" (translated)="getPassedData($event)">
 
+   <ng-container *ngFor="let slide of slidesStore">
+      <ng-template carouselSlide [id]="slide.id">
+         <section id="about">
+            <div class="container-fluid">
+               <div class="row">
+                  <div class="col-lg-12 col-xs-12 vs_text">
+                     <div class="about-image image-responsive">
+                        <img [src]="slide.img" alt="Responsive image" width="100%" height="450px">
 
-     <owl-carousel-o [options]="customOptions" (translated)="getPassedData($event)">
- 
-            <ng-container *ngFor="let slide of slidesStore">
-              <ng-template carouselSlide [id]="slide.id">
-                    <section id="about">
-                            <div class="container-fluid">
-                               <div class="row">
-                                  <div class="col-lg-12 col-xs-12 vs_text">
-                                     <div class="about-image image-responsive">
-                                        <img [src]="slide.img" alt="Responsive image" width="100%" height="450px">
-                                      
-                                     </div> 
-                                  </div>
-                               </div>
-                            </div>
-                         </section>
-                         <section id="save_up">
-                            <div class="container">
-                               <div class="row">
-                                  <div class="col-lg-8"></div>
-                                  <div class="col-lg-4 col-xs-12 text-center about_box">
-                                     <div class="container-fluid">
-                                        <div class="row slider-text">
-                                            <h2>
-                                                {{ slide.title}}
-                                            </h2>
-                                 
-                                        </div>
-                                     </div>
-                                  </div>
-                           
-                               </div>
-                            </div>
-                         </section>              </ng-template>
-            </ng-container>
-     
-          </owl-carousel-o>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <section id="save_up">
+            <div class="container">
+               <div class="row">
+                  <div class="col-lg-8"></div>
+                  <div class="col-lg-4 col-xs-12 text-center about_box">
+                     <div class="container-fluid">
+                        <div class="row slider-text">
+                           <h2>
+                              {{ slide.title}}
+                           </h2>
+
+                        </div>
+                     </div>
+                  </div>
+
+               </div>
+            </div>
+         </section>
+      </ng-template>
+   </ng-container>
+
+</owl-carousel-o>
+
+<section id="services">
+   <div class="container">
+      <div class="row">
+         <div class="col-lg-4 col-xs-12 text-center">
+            <div class="services_box">
+               <img src="../../assets/2.png" height="100%" width="100%">
+               <div class="services_text">
+                  <h4>CUSTOMER SATISFACTION
+                  </h4>
+               </div>
+               <div class="services_text">
+                  <p>We offer expert and passionate advice for finding the right service.
+                  </p>
+               </div>
+            </div>
+
+         </div>
+         <div class="col-lg-4 col-xs-12 text-center">
+            <div class="services_box">
+               <img src="../../assets/3.png" height="100%" width="100%">
+               <div class="services_text">
+                  <h4>SECURE BOOKING
+
+                  </h4>
+               </div>
+               <div class="services_text">
+                  <p>Our reservation system is secure We guarantee your privecy.
+                  </p>
+               </div>
+            </div>
+
+         </div>
+         <div class="col-lg-4 col-xs-12 text-center">
+            <div class="services_box">
+               <img src="../../assets/1.png" height="100%" width="100%">
+               <div class="services_text">
+                  <h4>BEST DEALS
+
+                  </h4>
+               </div>
+               <div class="services_text">
+                  <p>We offer the best services at the best price.
+                  </p>
+               </div>
+            </div>
+
+         </div>
+      </div>
+   </div>
+</section>
+
+<section id="upcoming">
+   <div class="container-fluid">
+      <div class="row">
+         <div class="col-lg-12 col-xs-12">
+            <div class="about-image image-responsive">
+               <img src="../../assets/bg.jpeg" alt="Responsive image" width="100%" height="250px">
+            </div>
+         </div>
+      </div>
+   </div>
+</section>
+<section id="upcoming-text">
+   <div class="container-fluid">
+      <div class="row">
+         <div class="col-lg-6 col-xs-12 up-text">
+            <h2>"Upcoming Tour"</h2>
+            <h2>Shirdi Tour</h2>
+         </div>
+         <div class="col-lg-2 col-xs-12">
+
+         </div>
+         <div class="col-lg-4 col-xs-12 up-text">
+            <button (click)="goToContact()" class="button button5">Book Now</button>
+
+         </div>
+      </div>
+   </div>
+</section>
+
+<section id="portfolio">
+   <div class="container-fluid">
+      <div class="row">
+         <div class="col-lg-12 col-xs-12 portfolio_text text-center">
+            <h2>cities of travel</h2>
+         </div>
+      </div>
+      <div>
+            <owl-carousel-o [options]="customOptionsB" (translated)="getPassedDataB($event)">
+
+                  <ng-container *ngFor="let slide of slidesStore">
+                     <ng-template carouselSlide [id]="slide.id">
+                           <img style="height:175px;padding: 5px"[src]="slide.img">
+      
+                     </ng-template>
+                  </ng-container>
+               </owl-carousel-o>
+      </div>
+        
+         
+   </div>
+</section>

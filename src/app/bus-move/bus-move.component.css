@@ -1,0 +1,20 @@
+.bannerbottom {
+    width: 100%;
+    float: left;
+    position: relative;
+    min-height: 50px;
+    background-image: url(../../assets/road.jpg);
+    background-position: center top;
+    background-repeat: no-repeat;
+}
+img{
+    width: 10%;
+}
+.bus{
+    margin-top: 40px;
+}
+@media only screen and (max-width:600px) {
+    img{
+        width: 30%;
+    }
+}

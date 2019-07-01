@@ -199,3 +199,17 @@ text-align: center;
 }
 .copyright a{color:#01c7e9;transition: all 0.2s ease 0s;}
 .copyright a:hover{color:#ff3666;}
+
+@media only screen and (max-width:600px) {
+    .footer{
+     /* display: none;    */
+     text-align: center;
+   
+    }
+    .single_footer h4::after{
+        display: none;
+    }
+    .social_profile{
+        margin-left: 30%;
+    }
+ }

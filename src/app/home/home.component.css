@@ -44,7 +44,7 @@ owl-carousel-o img{
     background-color: #fff;
     padding: 21px 0;
     margin-top: -68px;
-    margin-bottom: -8px;
+    margin-bottom: 5px;
     position: relative;
     box-shadow: 0 3px 7px 0 rgba(0,0,0,.28);
 }
@@ -60,10 +60,104 @@ owl-carousel-o img{
     width: 96%;
     text-align: center;
     text-transform: uppercase;
-    margin: 22px;
+    margin: 18px;
     text-shadow: 0 2px 4px rgba(255, 253, 253, 0.5);
     letter-spacing: 5px;
     line-height: 50px;
     position: absolute;
-    margin-top: -3%;
+    margin-top: -4%;
 }
+#services{
+    margin-top:50px;
+}
+.services_text p{
+    font-weight: 500;
+    color: #656565;
+    font-size: 15px;
+    line-height: 20px;
+    padding: 15px 20px 33px 20px;
+    text-align: center; 
+}
+.services_text h4{
+    color: #4d4d4d;
+    font-size: 19px;
+    display: block;
+    text-transform: uppercase;
+    font-weight: 600;
+    padding: 0px 0 5px;
+}
+.services_box{
+     box-shadow: 0 3px 7px 0 rgba(0,0,0,.28);
+     padding: 15px;
+}
+
+#upcoming{
+    margin-top: 50px;
+
+}
+#upcoming-text{
+
+    margin-top: -250px;
+    height: 250px;
+}
+.up-text h2{
+    color: #ffff;
+    font-weight: 900;
+    font-size: 38px;
+    padding: 13px 76px 0px 80px;
+    text-transform: uppercase;
+}
+.up-text{
+    margin-top:55px;
+}
+
+#portfolio{
+    margin-top: 50px;
+}
+.portfolio_text h2{
+    font-size: 32px;
+    font-weight: 800;
+    text-transform: uppercase;
+    padding: 18px;
+    margin-bottom: 33px;
+}
+.portfolio_img{
+    border: 1px solid #000;
+    padding: 41px;
+}
+.button {
+    margin-top: 115px;
+    width: 250px;
+    background-color: white;
+    color: black;
+    border: 2px solid #555555;
+    /* font-size: 20px; */
+    font-weight: 500;
+    font-size: 25px;
+    padding: 8px;
+    text-transform: uppercase;
+  }
+  
+  
+  .button5 {
+    background-color: white;
+    color: black;
+    border: 2px solid #555555;
+  }
+  
+  .button5:hover {
+    background-color: #555555;
+    color: white;
+  }
+@media only screen and (max-width: 600px) {
+    .up-text h2{
+        font-size: 26px;
+        text-align: center; 
+        padding: 4px 10px 0px 10px;
+    }
+    .up-text button{
+        margin-top: -50px;
+        margin-left: 75px;
+    }
+    
+  }

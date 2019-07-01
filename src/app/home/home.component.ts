@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { SlidesOutputData, OwlOptions } from 'ngx-owl-carousel-o';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-home',
@@ -31,33 +32,59 @@ export class HomeComponent implements OnInit {
     },
     nav: false
   }
+  customOptionsB: OwlOptions = {
+    loop: true,
+    mouseDrag: true,
+    touchDrag: true,
+    pullDrag: false,
+    dots: false,
+    autoplay:true,
+    navSpeed: 700,
+    navText: ['', ''],
+    responsive: {
+      0: {
+        items: 1
+      },
+      400: {
+        items: 2
+      },
+      740: {
+        items: 4
+      },
+      940: {
+        items: 6
+      }
+    },
+    nav: false
+  }
 
   activeSlides: SlidesOutputData;
+  activeSlidesB: SlidesOutputData;
 
   slidesStore: any[];
-  constructor() {
+  constructor(public router :Router) {
     this.slidesStore = [{
-      img : '../../assets/slides/01.jpg',
+      img : 'https://iamnavino.github.io/Patidar-tour-travels/assets/slides/01.jpg',
       title : 'Kedarnath '
     },
     {
-      img : '../../assets/slides/2.jpg',
+      img : 'https://iamnavino.github.io/Patidar-tour-travels/assets/slides/2.jpg',
       title : 'Badrinath '
     },
     {
-      img : '../../assets/slides/3.jpg',
+      img : 'https://iamnavino.github.io/Patidar-tour-travels/assets/slides/3.jpg',
       title : 'Gangotri '
     },
     {
-      img : '../../assets/slides/1.jpg',
+      img : 'https://iamnavino.github.io/Patidar-tour-travels/assets/slides/1.jpg',
       title : 'Yamnotri '
     },
     {
-      img : '../../assets/slides/6.jpg',
+      img : 'https://iamnavino.github.io/Patidar-tour-travels/assets/slides/6.jpg',
       title : 'Gangasagar '
     },
     {
-      img : '../../assets/slides/5.jpg',
+      img : 'https://iamnavino.github.io/Patidar-tour-travels/assets/slides/5.jpg',
       title : 'Amarnath '
 
     },
@@ -68,7 +95,16 @@ export class HomeComponent implements OnInit {
     this.activeSlides = data;
     console.log(this.activeSlides);
   }
+  getPassedDataB(data: SlidesOutputData) {
+    this.activeSlidesB = data;
+    console.log(this.activeSlidesB);
+  }
   ngOnInit(){
     
+  }
+
+  // Route Navigate
+  goToContact(){
+    this.router.navigate(['contact'])
   }
 }
