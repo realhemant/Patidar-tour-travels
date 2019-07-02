@@ -13,6 +13,7 @@ import { ContactComponent } from './contact/contact.component';
 import { GalleryComponent } from './gallery/gallery.component';
 import { BusMoveComponent } from './bus-move/bus-move.component';
 import { ServicesComponent } from './services/services.component';
+import { HeaderComponent } from './header/header.component';
 
 
 
@@ -25,7 +26,8 @@ import { ServicesComponent } from './services/services.component';
     ContactComponent,
     GalleryComponent,
     BusMoveComponent,
-    ServicesComponent
+    ServicesComponent,
+    HeaderComponent
   ],
   imports: [
     CarouselModule,
