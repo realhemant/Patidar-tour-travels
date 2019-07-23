@@ -21,6 +21,10 @@
   margin-right: -15px;
   position: relative;
 }
+.form-horizontal .form-group{
+  margin: 0px;
+
+}
 
 
 #contact {
@@ -59,6 +63,9 @@
   box-shadow: 0 2px 5px 0 rgba(185,47,47,1);
   padding: 36px;
 }
+.form-horizontal {
+  margin-top: 26px;
+}
 
 .form-control, textarea {
   width: 400px;
@@ -66,6 +73,7 @@
   color: #fff;
   letter-spacing: 1px;
   margin-top: 5px;
+  padding: 20px;
 }
 
 .send-button {

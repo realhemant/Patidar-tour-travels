@@ -11,6 +11,9 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AboutComponent } from './about/about.component';
 import { ContactComponent } from './contact/contact.component';
 import { GalleryComponent } from './gallery/gallery.component';
+import { BusMoveComponent } from './bus-move/bus-move.component';
+import { ServicesComponent } from './services/services.component';
+import { HeaderComponent } from './header/header.component';
 
 
 
@@ -21,7 +24,10 @@ import { GalleryComponent } from './gallery/gallery.component';
     FooterComponent,
     AboutComponent,
     ContactComponent,
-    GalleryComponent
+    GalleryComponent,
+    BusMoveComponent,
+    ServicesComponent,
+    HeaderComponent
   ],
   imports: [
     CarouselModule,

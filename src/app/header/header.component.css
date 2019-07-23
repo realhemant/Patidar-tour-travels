@@ -1,0 +1,23 @@
+.header_menu{
+    background-color: #b92f2f!important;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: initial;
+    padding: 0px 20px;  
+}
+.menu-pad li{
+    padding: 0px 20px;
+}
+.menu-pad li a{
+    color: #ffff;
+    padding: 20px 20px;
+
+}
+
+@media only screen and (max-width: 600px) {
+    .header_menu{  
+          text-align: center
+
+    }
+
+  }
