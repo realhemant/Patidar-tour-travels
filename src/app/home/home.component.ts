@@ -64,27 +64,27 @@ export class HomeComponent implements OnInit {
   slidesStore: any[];
   constructor(public router :Router) {
     this.slidesStore = [{
-      img : 'https://iamnavino.github.io/Patidar-tour-travels/assets/slides/01.jpg',
+      img : 'assets/slides/01.jpg',
       title : 'Kedarnath '
     },
     {
-      img : 'https://iamnavino.github.io/Patidar-tour-travels/assets/slides/2.jpg',
+      img : 'assets/slides/2.jpg',
       title : 'Badrinath '
     },
     {
-      img : 'https://iamnavino.github.io/Patidar-tour-travels/assets/slides/3.jpg',
+      img : 'assets/slides/3.jpg',
       title : 'Gangotri '
     },
     {
-      img : 'https://iamnavino.github.io/Patidar-tour-travels/assets/slides/1.jpg',
+      img : 'assets/slides/1.jpg',
       title : 'Yamnotri '
     },
     {
-      img : 'https://iamnavino.github.io/Patidar-tour-travels/assets/slides/6.jpg',
+      img : 'assets/slides/6.jpg',
       title : 'Gangasagar '
     },
     {
-      img : 'https://iamnavino.github.io/Patidar-tour-travels/assets/slides/5.jpg',
+      img : 'assets/slides/5.jpg',
       title : 'Amarnath '
 
     },
